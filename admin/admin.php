@@ -1,5 +1,8 @@
 <?php
     session_start();
+if($_SESSION){
+    header("Location: ../index.php");
+}
     include('../connection/connection.php');
     include('../include/header.php');
 

@@ -1,4 +1,9 @@
 <?php
+
+    session_start();
+    if(!$_SESSION){
+    header("Location: ../index.php");
+}
 //    session_start();
     include('../include/header.php');
     include('../connection/connection.php');

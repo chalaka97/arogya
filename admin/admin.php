@@ -1,6 +1,6 @@
 <?php
     session_start();
-if($_SESSION){
+    if(!$_SESSION){
     header("Location: ../index.php");
 }
     include('../connection/connection.php');

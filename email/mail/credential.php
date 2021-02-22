@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'user' => 'arogyatesting@gmail.com',
-    'pass' => 'arogya@1@'
+    'user' => '@gmail.com', //delete this beacuse of the security 
+    'pass' => '' //delete this beacuse of the security 
 ];
 
 ?>

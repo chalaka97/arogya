@@ -2,8 +2,8 @@
 
 $code="";
 function smsVerification($userMobile, $userEmail){
-$user = "94771712924";
-$password = "2461";
+$user = ""; // delete this beacuse of the security 
+$password = ""; //delete this beacuse of the security 
      global $code;
      
     

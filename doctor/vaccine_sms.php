@@ -27,8 +27,8 @@ function updateOf($idof,$con) {
 
 function sendSMS($date,$contact,$babyname,$gender,$vaccineId,$con) {
    
-    $user = "94771712924";
-    $password = "2461";
+    $user = "";//delete this beacuse of the security 
+    $password = "";//delete this beacuse of the security 
     $text = urlencode("Arogya Hospital PVT LTD. Your $gender $babyname have vaccine tratment is on $date. Please remember to follow helth guidlines and regulatins when you come to the hospital... Thank You! Best regard, Arogya Team. ");
     $to = "94$contact";
      

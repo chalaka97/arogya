@@ -1,8 +1,8 @@
 <?php
 
 function smsZoomLink($userName, $userMobile,$appointmentId,$date,$time){
-$user = "94771712924";
-$password = "2461";
+$user = "";//delete this beacuse of the security 
+$password = "";//delete this beacuse of the security 
     
    
     $text = urlencode("Arogya Hospital PVT LTD. Dear $userName, Your appointment ID: $appointmentId, on $date , at $time Please Come for your phisiotheropy session on time.

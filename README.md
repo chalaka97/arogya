@@ -1,2 +1,2 @@
 # arogya
- Arogya Hospital - Final project
+ Arogya Hospital Management System - Final project
